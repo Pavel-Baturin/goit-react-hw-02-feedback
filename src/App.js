@@ -24,7 +24,6 @@ class App extends Component {
         <Statistics good={this.state.good} neutral={this.state.neutral} bad={this.state.bad} total={totalFeedback} positivePercentage={goodPercentage}/>
       </Section>
   );
-
   }
 
 }
